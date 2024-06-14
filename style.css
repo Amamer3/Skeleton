@@ -1,0 +1,76 @@
+body {
+    background-color: #2C1F48;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.categories {
+    font-size: medium;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+#skeleton g :hover {
+    stroke: rgb(61, 14, 14);
+    fill: rgb(145, 28, 7);
+    cursor: pointer;
+}
+
+#cat1 {
+    margin-top: 20px;
+}
+
+#belong {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.info-card {
+    background: #181818;
+    border: 3px solid rgba(190, 190, 190, .1);
+    border-radius: 50px;
+    color: white;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 15%;
+    top: 15%;
+    width: 30%;
+    height: 70vh;
+    opacity: 0.7;
+}
+
+#classification {
+    background: #181818;
+    border: 3px solid rgba(190, 190, 190, .1);
+    border-radius: 50px;
+    color: white;
+    display: block;
+    position: absolute;
+    text-align: center;
+    right: 50%;
+    top: 15%;
+    width: 16%;
+    height: 70vh;
+    opacity: 0.7;
+}
+
+#classification .categories {
+    border: 3px solid lightslategrey;
+    width: 80%;
+}
+
+.info-card .part-name {
+    font-size: x-large;
+    font-weight: 900;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
